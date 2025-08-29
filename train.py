@@ -13,7 +13,7 @@ def train_step_yolo(yaml_path,model_weights,input_size=640,epochs=5,batch_size=1
         epochs=epochs,
         batch=batch_size,
         workers=1,
-        device='cpu'
+        device='cpu'  # Use '0' for GPU if available
     )
 
     print("Training is completed with pretrained weights")
