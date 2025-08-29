@@ -1,4 +1,4 @@
-# Dental YOLOv8 Tooth Detection
+# YOLOv8 Tooth Detection
 
 This repository contains code for training and post-processing a YOLOv8
 model to detect and label teeth using FDI numbering.
