@@ -22,8 +22,7 @@ pip install -r requirements.txt
 
     ├── split_dataset.py            # To split dataset into train,test,val
     ├── train.py                    # Training script
-    ├── evaluate.py                 # Evaluation script
-    ├── testing.py                  # Testing on test dataset
+    ├── test.py                     # Testing on test dataset
     ├── post_processing_pipeline.py # Post-processing logic for anatomical correctness
     ├── requirements.txt            # Python dependencies
     ├── README.md                   # Project documentation
@@ -37,12 +36,6 @@ Run the following command to train YOLOv8 on your dataset:
 python train.py
 ```
 
-## Evaluation
-
-Evaluate the trained model on the test dataset:
-
-```bash
-python evaluate.py
 ```
 
 ## Testing
@@ -50,7 +43,7 @@ python evaluate.py
 Run inference and generate results on the test set:
 
 ```bash
-python testing.py
+python test.py
 ```
 
 ## Post-Processing
